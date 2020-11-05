@@ -149,12 +149,18 @@ h3 {
 
 .img-wrapper{
 
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+
+}
+
+.main-top{
+  margin-top: 30px;
+
 
 }
 
 .barista-logo{
-    margin-top:100px;
+    margin-top:50px;
     text-align: center;
 }
 
@@ -235,10 +241,6 @@ figure.cp_caption:hover figcaption {
 
 }
 
-.btn-group-toggle{
-
-    
-}
 .img_menu{
     border: 1px solid #ddd;
 
