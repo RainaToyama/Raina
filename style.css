@@ -1,0 +1,342 @@
+header{
+    background-color: black;
+    opacity: 0.8;
+        
+}
+
+.navbar{
+
+    position: fixed;
+}
+
+.a:hover{
+    opacity: 0.2;
+    transform: rotate(360deg);
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+.heading h2 {
+    font-size: 19px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+}
+.heading h2:after {
+    content: "";
+    display: block;
+    width: 76px;
+    height: 2px;
+    background: #5b4c5c;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -38px;
+}
+
+
+.heading h3 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b4c5c;
+    padding-bottom: 0;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+.row{
+
+    margin-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+
+h2 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    font-family: din-condensed-web;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: .03em;
+    line-height: 1.4em;
+    text-transform: none;
+}
+
+.img_main{
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .img_main img{
+
+    cursor: pointer;
+    border-radius: 20%;
+    transition-duration: 0.3s;
+  }
+  .img_main img:hover{
+    border-radius: 0;
+    transition-duration: 0.3s;
+  }
+  
+
+.nav nav-tabsn{
+
+    padding-top: 100px;
+
+}
+
+h3 {
+    position: relative;
+    background: silver;
+    box-shadow: 0px 0px 0px 5px white;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: black;
+    opacity: 0.5;
+  }
+  
+  h3:after {
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    border-width: 0 0 15px 15px;
+    border-style: solid;
+    border-color: #fff #fff #a8d4ff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+
+.main-wrapper{
+    margin-bottom: 100px;
+    padding-top:100px;
+}
+.fixed{
+  padding-right: 30px;
+
+
+
+}
+
+.img_wrap{
+    border: 1px solid #ddd;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .img_wrap img{
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+  .img_wrap:hover img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+  }
+
+.img-wrapper{
+
+  margin-bottom: 100px;
+
+}
+
+.barista-logo{
+    margin-top:100px;
+    text-align: center;
+}
+
+.cp_caption p{
+ 
+  margin-left: 93px;
+}
+
+.btn btn-secondary{
+
+    margin-top: 40px;
+
+}
+
+figure.cp_caption {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 10px 1%;
+	color: #ffffff;
+}
+figure.cp_caption * {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+figure.cp_caption img {
+	width: 100%;
+    height: 100%;
+    text-align: center;
+}
+figure.cp_caption figcaption {
+    text-align: center;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	padding: 3em 3em;
+	transition: all 0.3s ease-out;
+	transition-delay: 0.1s;
+    opacity: 0;
+    font-size: 20px;
+}
+figure.cp_caption:after {
+	position: absolute;
+	top: 7%;
+	right: 10%;
+	bottom: 7%;
+	left: 10%;
+	display: inline-block;
+	content: '';
+	transition: all 0.3s ease-out;
+	opacity: 0;
+	background: rgba(27, 37, 56, 0.8);
+}
+figure.cp_caption:hover:after {
+	opacity: 0.9;
+}
+figure.cp_caption:hover figcaption {
+	transform: translateY(-50%);
+	opacity: 1;
+}
+
+.menu{
+    
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+
+}
+
+.menu-logo{
+
+    text-align: center;
+
+}
+.card-deck{
+    margin-top: 30px;
+
+
+}
+
+.btn-group-toggle{
+
+    
+}
+.img_menu{
+    border: 1px solid #ddd;
+
+
+    
+    transition-duration: 0.5s;
+  }
+  .img_menu img{
+    width: 100%;
+    cursor: pointer;
+  }
+  .img_menu:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+  }
+  
+
+
+
+.list{
+
+    font-size: 20px;
+
+}
+
+.manu{
+
+    margin-top: 50px;
+
+
+
+}
+
+a.cp_btn {
+    margin-top: 40px;
+	display: block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: silver;
+	border: 2px solid silver;
+	border-radius: 3px;
+	transition: .4s;
+}
+a.cp_btn:hover {
+	background: blanchedalmond;
+	color: #fff;
+}
+
+
+.footer{
+
+  margin-top:90px;
+
+}
+
+.form-logo{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-left: 10px;
+
+}
+
+
+
+#silver{ 
+    margin-top: 20px;
+    border-top: solid silver;
+    border-width: 15px;
+    background: rgb(138, 130, 130); 
+
+    bottom:0; 
+    height:100%;
+    width:100%; 
+    height:180px; 
+  }
+  
+  .text {
+    color: #424242;
+    font-family: Lato;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .text2 {
+    color: #424242;
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -50px;
+  }
+  
+ 
+  #page-footer {
+    display: none !important;
+  }
+
+  
